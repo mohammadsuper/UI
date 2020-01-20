@@ -1,0 +1,62 @@
+@font-face{
+    font-family: bangers;
+    src:url(Bangers/Bangers-Regular.ttf);
+}
+body{
+   background-image: url(hoang-v-n-9uwYzO4TLLw-unsplash.jpg);
+        background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+/*    background-size: 90% 85%;*/
+     height: 1000px;
+    
+}
+p{
+    font-family: bangers;
+       padding: 23px;
+    color: black;
+    font-size: 30px;
+    border: 3px solid black;
+    border-radius: 58px;
+        position: sticky;
+    top: 0;
+    z-index: 1;
+        background-color: tomato;
+}
+.link{
+        padding: 25px 50px;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    font-family: bangers;
+        font-size: 25px;
+        position: fixed;
+    bottom: 5px;
+    right: 5px;
+}
+.link:hover{
+    background-color: black;
+    border: 1px solid black;
+    border-radius:20px; 
+    color: red;
+    
+}
+.link:active{
+    color: blue;
+}
+.green{
+    position: absolute;
+    border: 2px solid green;
+    top: 44%;
+    right: 30%
+}
+.blue{
+    color: white;
+    width: 65%;
+    height: 30%;
+    position: relative;
+    border: 2px solid blue;
+}
+div{
+        font-size: 25px;
+}
