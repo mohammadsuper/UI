@@ -1,0 +1,40 @@
+ 
+        <div class="hhh">
+        <h1 class="header">header 1</h1>
+        </div>  
+        
+        <div class="ddd">
+        <p style="padding-left: 45px;">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
+        </div>
+        
+        <div class="hhh">
+        <h1 class="header">header 2</h1>
+        </div>
+        
+        
+        <div class="hhh">
+        <h1 class="header">header 3</h1>
+        </div>
+        
+        
+        .hhh{
+           border-radius: 12px;
+    border: 0.5px solid black;
+    margin-top: 7px;
+    background-color: darkslategrey;
+    color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.header{
+        font-size: 23px;
+    padding-left: 35px;
+    margin: 10px;
+}
+.ddd{
+    border: 0.5px solid black;
+    border-radius: 12px;
+    margin: 5px;
+    background-color: lightgrey;
+    height: 200px;
+}
