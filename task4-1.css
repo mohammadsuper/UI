@@ -1,0 +1,70 @@
+@font-face{
+    font-family: bangers;
+    src:url(Bangers/Bangers-Regular.ttf);
+}
+body{
+    background-image: url(luke-porter-rg1Z9NtEa80-unsplash.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+    font-family: bangers;
+}
+.super{
+    color: tomato;
+    font-size: 45px;
+    padding: 25px;
+}
+nav ul{
+    display: inline-block;
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    margin: 0px;
+}
+nav ul li{
+    display: inline-block;
+    padding: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+}
+nav ul li a:hover{
+    color: tomato;
+}
+main h1{
+    position: absolute;
+    color: white;
+    font-size: 75px;
+    top: 30%;
+    right: 35%;
+}
+span{
+    color: tomato;
+}
+main p{
+    position: absolute;
+    color: white;
+    font-size: 50px;
+    bottom: 250px;
+    right: 250px;
+}
+main a{
+    position: absolute;
+    bottom: 220px;
+    right: 45%;
+    color: #000000;
+    border: 1px solid;
+    border-radius: 25px;
+    font-size: 30px;
+    background-color: #FFFFFF;
+    padding: 10px;
+    text-decoration: none;
+}
+main a:hover{
+    color: tomato;
+}
+

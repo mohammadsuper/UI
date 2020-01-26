@@ -1,0 +1,41 @@
+body{
+    margin:  0px;
+}
+nav{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+nav ul li{
+    display: inline-block;
+    padding: 19px 20px;
+}
+nav ul{
+    background-color: black;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 19px 20px;
+}
+a:hover{
+    background-color: tomato;
+}
+h1{
+   margin: 0px;
+    color: white;
+    position: absolute;
+    top: 160px;
+    right: 45%;
+    font-size: 60px;
+}
+main{
+    background-color: tomato;
+    height: 400px;
+    position: relative;
+}
+section{
+        padding: 35px 65px;
+}
