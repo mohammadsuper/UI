@@ -35,27 +35,29 @@ nav ul li a{
 nav ul li a:hover{
     color: tomato;
 }
-main h1{
+main{
     position: absolute;
+    top: 30%;
+    margin: auto;
+    text-align: center;
+    right: 20%;
+}
+main h1{
+   
     color: white;
     font-size: 75px;
-    top: 30%;
-    right: 35%;
+  
 }
 span{
     color: tomato;
 }
 main p{
-    position: absolute;
+  
     color: white;
     font-size: 50px;
-    bottom: 250px;
-    right: 250px;
+  
 }
 main a{
-    position: absolute;
-    bottom: 220px;
-    right: 45%;
     color: #000000;
     border: 1px solid;
     border-radius: 25px;
@@ -67,4 +69,3 @@ main a{
 main a:hover{
     color: tomato;
 }
-
